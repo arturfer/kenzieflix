@@ -1,0 +1,140 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none; 
+}
+
+p{
+    color: rgba(156, 156, 156, 1);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul, li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+section.container{
+    Width: 100%;
+    Height: 720px;
+    background-color:#121214;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.bigbox{
+    width: 100%;
+    height: 100%;
+    background-color: #121214;
+
+}
+
+div.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+div.bigbox h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 1px transparent solid;
+}
+
+
+
+ul.lista{
+
+    height: 300px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+li{
+    margin-left: 16px;
+    border: 1px transparent solid;
+    height: 160px;
+    width: 160px;
+    box-sizing: border-box;
+
+}
+
+.zoom{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 8px;
+    border: solid transparent 2px;
+    
+}
+
+.zoom img:hover{
+    transform: scale(1.3);
+    border-radius: 8px;
+    border: 1px white solid;
+    transition: 0.5s ease-in-out;
+    
+}
+.zoom:hover{
+    border: solid white 2px;
+}
+.user{
+    border-radius: 8px;
+    border: 2px transparent solid;
+}
+.user:hover{
+    border: 2px white solid;
+    opacity: 1;
+
+
+}
+
+
+.button{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+button{
+    width: 206px;
+    height: 50px;
+    background-color: #121214;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border: white 1px solid;
+    border-radius: 10px;
+}
+
+button:hover{
+    color:#121214;
+    background-color:white;
+}
+
+.item4{
+    opacity: 0.7;
+}
+
